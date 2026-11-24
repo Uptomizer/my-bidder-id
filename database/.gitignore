@@ -1,0 +1,25 @@
+@'
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+*.sqlite*
+
+# Local AI & Agent configs
+.agents/
+AGENTS.md
+CLAUDE.md
+.mcp.json
+boost.json
+skills-lock.json
+'@ | Set-Content -Path .gitignore -Encoding UTF8
